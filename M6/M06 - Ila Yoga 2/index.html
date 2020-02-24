@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <title>LA YOGA 2</title>
+</head>
+
+<body>
+    <header>
+        <div class="alae">
+            <ul>
+                <li><i class="fa fa-home" aria-hidden="true"></i></li>
+                <li><a href="url">Accueil</a></li>
+            </ul>
+            <ul>
+                <li><i class="fa fa-calendar" aria-hidden="true"></i></li>
+                <li><a href="url">Agenda</a></li>
+            </ul>
+            <ul>
+                <li><i class="fa fa-book" aria-hidden="true"></i></li>
+                <li><a href="url">Livre d'or</a></li>
+            </ul>
+            <ul>
+                <li><i class="fa fa-picture-o" aria-hidden="true"></i></li>
+                <li><a href="url">Album photo</a></li>
+            </ul>
+            <ul>
+                <li><i class="fa fa-envelope-open" aria-hidden="true"></i></li>
+                <li><a href="url">Nous contacter</a></li>
+            </ul>
+        </div>
+        <div class="reda">
+            <p>OFFRE PROMO : Votre premier cours d'essai gratuit !</p>
+        </div>
+        <p id="par">Bienvenue dans le site dla Yoga</p>
+
+
+    </header>
+    <section>
+        <h2>Réserver votre place pour le prochain cours de YOGA !</h2>
+        <table>
+            <tr>
+                <thead>
+                    <th colspan="3">
+                        Yoga du rire avec Jacqueline (paris)
+                    </th>
+                    <tr>
+                        <td>05 janvier 2016</td>
+                        <td>15h30</td>
+                        <td>Réserver ce créneau</td>
+                    </tr>
+                    <tr>
+                        <td>05 janvier 2016</td>
+                        <td>15h30</td>
+                        <td>Réserver ce créneau</td>
+                    </tr>
+                    <tr>
+                        <td>05 janvier 2016</td>
+                        <td>15h30</td>
+                        <td>Réserver ce créneau</td>
+                    </tr>
+                    <tr>
+                        <td>05 janvier 2016</td>
+                        <td>15h30</td>
+                        <td>Réserver ce créneau</td>
+                    </tr>
+
+                </thead>
+            </tr>
+        </table>
+        <table id="tab2">
+            <tr>
+                <thead>
+                    <th colspan="3">
+                        Yoga du rire avec Roger (Marseille)
+                    </th>
+                    <tr>
+                        <td>05 janvier 2016</td>
+                        <td>15h30</td>
+                        <td>Réserver ce créneau</td>
+                    </tr>
+                    <tr>
+                        <td>05 janvier 2016</td>
+                        <td>15h30</td>
+                        <td>Réserver ce créneau</td>
+                    </tr>
+                    <tr>
+                        <td>05 janvier 2016</td>
+                        <td>15h30</td>
+                        <td>Réserver ce créneau</td>
+                    </tr>
+                    <tr>
+                        <td>05 janvier 2016</td>
+                        <td>15h30</td>
+                        <td>Réserver ce créneau</td>
+                    </tr>
+
+                </thead>
+            </tr>
+        </table>
+        <h3>Pour valider votre réservation, veiullez remplir ce formulaire :</h3>
+        <form class="f1" method="post">
+            <fieldset>
+                <legend>Vos coordonnées</legend> <!-- Titre du fieldset -->
+
+                <label for="nom">Quel est votre nom ?</label>
+                <input type="text" name="nom" id="nom" />
+
+                <label for="prenom">Quel est votre prénom ?</label>
+                <input type="text" name="prenom" id="prenom" />
+
+                <label for="email">Quel est votre e-mail ?</label>
+                <input type="email" name="email" id="email" />
+
+            </fieldset>
+            <fieldset>
+                <legend>Votre souhait</legend> <!-- Titre du fieldset -->
+
+                <p>
+                    Faites un souhait que vous voudriez voir exaucé :
+
+                    <input type="checkbox" name="souhait" value="riche" id="riche" /> <label for="riche">Etre
+                        riche</label>
+                    <input type="checkbox" name="souhait" value="celebre" id="celebre" /> <label for="celebre">Etre
+                        célèbre</label>
+                    <input type="checkbox" name="souhait" value="intelligent" id="intelligent" /> <label
+                        for="intelligent">Etre
+                        <strong>encore</strong> plus intelligent</label>
+                </p>
+
+
+            </fieldset>
+            <fieldset>
+                <legend>Voulez vous souscrire à notre programme de fidélité</legend> <!-- Titre du fieldset -->
+                <p>
+                    <input type="radio" name="souhait" value="riche" id="riche" /> <label for="riche">OUI</label>
+                    <input type="radio" name="souhait" value="celebre" id="celebre" /> <label for="celebre">NON</label>
+
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Comment avez vous connu La Ygoga</legend> <!-- Titre du fieldset -->
+                <p>
+                    <label for="pays">Dans quel pays habitez-vous ?</label><br/>
+                    <select name="pays" id="pays">
+                        <option value="france">France</option>
+                        <option value="espagne">Espagne</option>
+                        <option value="italie">Italie</option>
+                        <option value="royaume-uni">Royaume-Uni</option>
+                        <option value="canada">Canada</option>
+                        <option value="etats-unis">États-Unis</option>
+                        <option value="chine">Chine</option>
+                        <option value="japon">Japon</option>
+                    </select>
+                </p>
+            </fieldset>
+        </form>
+    </section>
+    <input id="bouton" type="submit" value="Envoyer"/>
+
+
+
+
+
+</body>
+
+</html>

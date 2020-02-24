@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("M04 - Fish  Chips/img/fond.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+
+}
+
+.body1 {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+header {
+    border: 2px solid #2b9aa0;
+    background-color:rgb(52, 177, 178) ;
+    text-align: center;
+    margin-top: 3em;
+
+}
+.logo{
+    width: 100px;
+    height:50px;
+}
+.centre{
+    padding:40px;
+}
+.red1 a{
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+header a {
+    text-decoration: black;
+    color: white;
+}
+p{
+    margin: 20px;
+}
+
+
+.firstsec{
+    background-color: #b6dedc;
+    width:70%;
+    display: inline-block;
+    float: left;
+    /* height: 600px; */
+    padding: 15px;
+}
+.firstsec img{
+     border-radius: 13em;
+     float: left;
+}
+.recipe1 a{
+    margin
+}
+
+.fa-tint{
+    color: #34b1b2;
+}
+h1 {
+    margin-bottom: 50px;
+}
+.recipe1,.recipe2{
+    display: inline-block;
+    width: 40%;
+}
+
+.recipe1 {
+    float: left;
+}
+.firstsec a{
+    margin-right: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    float: right;
+    background-color: teal;
+    text-decoration: none;
+}
+
+.secondsec{
+    background-color: #34b1b2;
+    border: 2px solid #2b9aa0;
+    width: 25%; 
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+}
+
+.fa-comment{
+    color:#b6dedc;
+} 
+.secondsec img{
+    
+    position: absolute;
+    top: -30px;
+    right: -40px;
+    width: 30%;
+    
+    
+}
+
+
+
+

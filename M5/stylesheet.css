@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: url(fond.jpg);
+    height: 500px ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+header a{
+    color: white;
+}
+header ul{
+    list-style: none;
+}
+.alae{
+    background-color: rgba(218, 197, 240, 0.7);
+   display: inline-block;
+   width: 100%;
+}
+.alae ul{
+   
+   display: inline-block;
+}
+.reda p{
+    background-color:rgba(218, 197, 240, 0.7) ;
+    margin-top: 0;
+}
+.first{
+     text-align: center;
+}
+.first img{
+    width: 300px;
+    float: left;
+
+}
+hr { 
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+  .second{
+      text-align: center;
+  }
+.second img{
+      width: 300px;
+      float: right
+}
+section{
+    background-image: url(background_section.jpg);
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+}
+section img{
+    width: 150px;
+}
+
+.pic1{
+    display: inline-block;
+    width: 30%
+}
+.pic2{
+    width: 30%;
+    display: inline-block;
+}
+.pic3{
+    width: 30%;
+    display: inline-block;
+}
+footer {
+    margin-top: 10px;
+    text-align: center;
+
+}
+footer img{
+    height: 50px;
+    width: 50px;
+}
+#par{
+    margin-top:140px ;
+    
+}
+

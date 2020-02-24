@@ -1,0 +1,34 @@
+@font-face {
+    font-family: blacksword;
+    src: url(fonts/Blacksword.otf);
+    
+  }
+  @font-face{
+      font-family: cardo-italic ;
+      src: url(fonts/cardo/cardo-italic.woff)
+  }
+  h1, h2, h3{
+    font-family: blacksword;
+    }
+    h1{
+        text-align: center;
+    }
+  span{
+      font-family: cardo-italic;
+  }
+  .image{
+      background-image:url(img/bunting.png);
+      background-repeat: repeat-x;
+      height: 70px;
+      
+  }
+  
+  .body{
+      text-align: center;
+      width:700px;
+      margin:auto;
+  }
+  
+  
+  
+  
